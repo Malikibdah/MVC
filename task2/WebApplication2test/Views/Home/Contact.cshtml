@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+<main aria-labelledby="title">
+    <h2 id="title">@ViewBag.Title.</h2>
+    <h3>@ViewBag.Message</h3>
+
+    @using (Html.BeginForm())
+    {
+
+        <div>
+            <label for="name">Inter your name : </label>
+            <input id="name" name="name" type="text" placeholder="Enter your name " />
+        </div>
+
+        <div>
+            <label for="birth">Inter your birthyear : </label>
+            <input id="birth" name="birth" type="number" placeholder="Enter your birthyear " />
+        </div>
+        <div>
+            <label for="gender">Gender : </label>
+            <label for="genderM">Male </label>
+            <input id="genderM" name="gender" type="radio" value="Male" />
+            <label for="genderF">Female </label>
+            <input id="genderF" name="gender" type="radio" value="Female" />
+        </div>
+        <div>
+            <label for="courses">Courses : </label>
+
+            <input id="courses1" name="courses" type="checkbox" value="HTML"/>
+            <label for="courses1">HTML  </label>
+
+            <input id="courses2" name="courses" type="checkbox" value="CSS" />
+            <label for="courses2">CSS </label>
+
+            <input id="courses3" name="courses" type="checkbox" value="C#" />
+            <label for="courses3">C# </label>
+
+        </div>
+        <div>
+            <label>Select your skills :</label>
+            <br />
+            <select multiple  name="skills">
+                <option value="teamwork">Teamwork</option>
+                <option value="leadership">Leadership</option>
+                <option value="Communication">Communication skills</option>
+                <option value="pressure">work under pressure</option>
+            </select>
+            
+        </div>
+        <button type="submit">Submit</button>
+
+    }
+</main>
