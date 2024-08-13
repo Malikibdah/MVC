@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\ASB.Net_MVC\\MVC\\task5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1B35F6B7-B344-4831-8F23-BE54B6599806}|30.7.2024task4\\30.7.2024task4.csproj|c:\\users\\orange\\desktop\\asb.net_mvc\\mvc\\task5\\30.7.2024task4\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B35F6B7-B344-4831-8F23-BE54B6599806}|30.7.2024task4\\30.7.2024task4.csproj|solutionrelative:30.7.2024task4\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B35F6B7-B344-4831-8F23-BE54B6599806}|30.7.2024task4\\30.7.2024task4.csproj|C:\\Users\\Orange\\Desktop\\ASB.Net_MVC\\MVC\\task5\\30.7.2024task4\\views\\users\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B35F6B7-B344-4831-8F23-BE54B6599806}|30.7.2024task4\\30.7.2024task4.csproj|solutionrelative:30.7.2024task4\\views\\users\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B35F6B7-B344-4831-8F23-BE54B6599806}|30.7.2024task4\\30.7.2024task4.csproj|C:\\Users\\Orange\\Desktop\\ASB.Net_MVC\\MVC\\task5\\30.7.2024task4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B35F6B7-B344-4831-8F23-BE54B6599806}|30.7.2024task4\\30.7.2024task4.csproj|solutionrelative:30.7.2024task4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASB.Net_MVC\\MVC\\task5\\30.7.2024task4\\Views\\Users\\Register.cshtml",
+              "RelativeDocumentMoniker": "30.7.2024task4\\Views\\Users\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASB.Net_MVC\\MVC\\task5\\30.7.2024task4\\Views\\Users\\Register.cshtml",
+              "RelativeToolTip": "30.7.2024task4\\Views\\Users\\Register.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-03T19:04:00.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASB.Net_MVC\\MVC\\task5\\30.7.2024task4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "30.7.2024task4\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASB.Net_MVC\\MVC\\task5\\30.7.2024task4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "30.7.2024task4\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-03T13:47:51.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASB.Net_MVC\\MVC\\task5\\30.7.2024task4\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "30.7.2024task4\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASB.Net_MVC\\MVC\\task5\\30.7.2024task4\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "30.7.2024task4\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAFoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T12:38:06.436Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

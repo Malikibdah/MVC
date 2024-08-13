@@ -24,9 +24,9 @@ namespace _30._7._2024task4.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Register([Bind(Include = "UsersID,UserName,UserEmail,UserPassword,UserImage, ConfirmPassword")] User uSER, string confirmpassowrd)
+        public ActionResult Register(User uSER)
         {
-            if (ModelState.IsValid && uSER.UserPassword == confirmpassowrd)
+            if (ModelState.IsValid && uSER.UserPassword == uSER.ConfirmPassword)
             {
                 db.Users.Add(uSER);
                 db.SaveChanges();

@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "admin";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>admin</h2>
+
+@using(Html.BeginForm("admin","Home",FormMethod.Post))
+{
+<div class="mb-3">
+    <label for="image" class="form-label">Url image</label>
+    <input type="text" name="image" class="form-control" id="image" placeholder="inter your image">
+</div>
+<div class="mb-3">
+    <label for="Product" class="form-label">Product name</label>
+    <input type="text" name="Product" class="form-control" id="Product" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+    <label for="prise" class="form-label">Add the price</label>
+    <input type="text" name="price" class="form-control" id="price" placeholder="inter your price">
+</div>
+
+<input type="submit" value="Create" />
+}
+
+

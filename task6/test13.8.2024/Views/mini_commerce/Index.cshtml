@@ -1,0 +1,19 @@
+﻿@model IEnumerable<test13._8._2024.Models.Class1>
+   
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+@Html.ActionLink("Create", "admin", "Home")
+
+<div class="card" style="width: 18rem;">
+    <img src="@Html.DisplayNameFor(model => model.image)" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">@Html.DisplayNameFor(model => model.Name)</h5>
+        <p class="card-text">@Html.DisplayNameFor(model => model.Price)</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+</div>

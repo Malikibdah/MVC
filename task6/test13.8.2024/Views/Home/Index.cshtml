@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var images = Session["images"] as List<string>;
+    var Productsname = Session["Productnames"] as List<string>;
+    var prices = Session["prices"] as List<string>;
+
+}
+
+<h2>Index</h2>
+@Html.ActionLink("Create", "admin", "Home")
+
+@if (images != null)
+{
+    for (int i = 0; i < images.Count; i++)
+    {
+        <div class="card" style="width: 18rem;">
+            <img src="@images[i]" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">@Productsname[i]</h5>
+                <p class="card-text">@prices[i]</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    }
+
+}
